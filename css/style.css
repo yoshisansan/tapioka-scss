@@ -1,0 +1,229 @@
+* {
+  font-size: 62.5%;
+  font-family: "M PLUS 1p";
+}
+
+h2 {
+  border-bottom: 3px solid #D37C97;
+}
+
+header {
+  width: 100%;
+  height: 84rem;
+  background-color: #D37C97;
+  z-index: -1;
+}
+
+header .header-inner {
+  position: relative;
+  margin: 0 auto;
+  width: 95rem;
+}
+
+header .header-inner .main-image-wrap {
+  position: absolute;
+  top: 16.9rem;
+  left: 3rem;
+  width: 50%;
+  text-align: center;
+}
+
+header .header-inner .main-image-wrap p {
+  margin-top: 2.75rem;
+  font-size: 3.6rem;
+  color: #ffffff;
+}
+
+header .header-inner .header-main-tapioka {
+  position: absolute;
+  top: 5.9rem;
+  right: 0;
+  width: 43rem;
+}
+
+header .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 12rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav-wrapper .header-logo {
+  padding-left: 2rem;
+  line-height: 2rem;
+}
+
+header .nav-wrapper .nav-bar {
+  color: #ffffff;
+  z-index: 2;
+}
+
+header .nav-wrapper .nav-bar .nav {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2.4rem;
+  padding-left: 5.8rem;
+  line-height: 9.6rem;
+}
+
+.news-wrapper .news-inner {
+  width: 95rem;
+  margin: 0 auto;
+}
+
+.news-wrapper .news-inner .news {
+  margin-top: 5rem;
+}
+
+.news-wrapper .news-inner .news h2 {
+  margin-top: 2.5rem;
+  height: 7.6rem;
+  display: block;
+  width: 100%;
+  color: #D37C97;
+  font-size: 3.6rem;
+}
+
+.news-wrapper .news-inner .news .news-box dl {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 14rem 85%;
+      grid-template-columns: 14rem 85%;
+}
+
+.news-wrapper .news-inner .news .news-box dl dt, .news-wrapper .news-inner .news .news-box dl dd {
+  margin-top: 1.6rem;
+}
+
+.news-wrapper .news-inner .news .news-box dl dt {
+  color: #ffffff;
+  font-size: 1.6rem;
+  background-color: #D37C97;
+  padding: 0.4rem 2.4rem;
+}
+
+.news-wrapper .news-inner .news .news-box dl dd {
+  font-size: 1.6rem;
+  color: #312626;
+  padding: 0.4rem 2.2rem;
+  display: inline-block;
+}
+
+.news-wrapper .news-inner .news .news-more {
+  width: 17rem;
+  height: 4rem;
+  background-color: #D37C97;
+  margin: 0 0 0 auto;
+}
+
+.news-wrapper .news-inner .news .news-more p {
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.concept-wrapper {
+  margin-top: 9rem;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+
+.concept-wrapper .concept-image {
+  width: 100%;
+  height: 55rem;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center bottom;
+     object-position: center bottom;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.concept-wrapper h2 {
+  padding-top: 9.4rem;
+  padding-bottom: 3.5rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+  border-bottom: 0;
+}
+
+.concept-wrapper p {
+  font-size: 2.4rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.concept-wrapper p:last-child {
+  padding-top: 3.8rem;
+}
+
+.menu-wrapper {
+  margin-top: 24rem;
+}
+
+.menu-wrapper .menu-inner {
+  width: 95rem;
+  margin: 0 auto;
+}
+
+.menu-wrapper .menu-inner .menu-title-wrap .menu-title {
+  display: block;
+  text-align: center;
+  color: #D37C97;
+  font-weight: bold;
+  font-size: 3.6rem;
+}
+
+.menu-wrapper .menu-inner .menus-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  margin-top: 6.5rem;
+}
+
+.menu-wrapper .menu-inner .menus-box .menus {
+  display: inline-block;
+  width: 30rem;
+}
+
+.menu-wrapper .menu-inner .menus-box .menus img {
+  width: 100%;
+  text-align: center;
+}
+
+.menu-wrapper .menu-inner .menus-box .menus .menu-descriptions {
+  padding: 1rem;
+}
+
+.menu-wrapper .menu-inner .menus-box .menus .menu-descriptions h3 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #C3B79D;
+  font-weight: bold;
+}
+
+.menu-wrapper .menu-inner .menus-box .menus .menu-descriptions p {
+  padding: 0.3rem 0;
+  font-size: 1.6rem;
+  color: #C3B79D;
+  line-height: 2.5rem;
+}
+
+.shop-wrapper .shop-inner {
+  width: 95rem;
+}
+/*# sourceMappingURL=style.css.map */
